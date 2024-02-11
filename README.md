@@ -1,2 +1,2 @@
-# ok_colors
+# okwind
 OKLCH color management plugin for tailwindcss
