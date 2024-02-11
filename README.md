@@ -1,2 +1,2 @@
-# ret4color
+# ok_colors
 OKLCH color management plugin for tailwindcss
