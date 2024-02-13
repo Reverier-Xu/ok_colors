@@ -1,0 +1,33 @@
+{
+  "name": "okwind",
+  "version": "0.1.0",
+  "description": "Automatic Oklab color theme generation plugin for tailwindcss.",
+  "author": "Reverier-Xu",
+  "license": "MIT",
+  "homepage": "https://github.com/Reverier-Xu/okwind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reverier-Xu/okwind.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "css",
+    "design-system",
+    "design",
+    "postcss",
+    "tailwindcss",
+    "tailwind",
+    "theming"
+  ],
+  "dependencies": {
+    "culori": "^4",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
