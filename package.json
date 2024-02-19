@@ -25,6 +25,11 @@
   ],
   "dependencies": {
     "culori": "^4",
+    "tailwindcss": "^3",
+    "picocolors": "^1"
+  },
+  "devDependencies": {
+    "@types/culori": "^2",
     "typescript": "^5"
   },
   "scripts": {
