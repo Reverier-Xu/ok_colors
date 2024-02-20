@@ -1,6 +1,6 @@
 {
   "name": "okwind",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Automatic Oklab color theme generation plugin for tailwindcss.",
   "author": "Reverier-Xu",
   "license": "MIT",
