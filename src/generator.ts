@@ -55,19 +55,19 @@ export class OkwindGenerator {
       resultObj.set(`--${key}`, `${bgColor.l} ${bgColor.c} ${bgColor.h}`)
       resultObj.set(`--${key}-content`, `${contentColor.l} ${contentColor.c} ${contentColor.h}`)
     }
-    const baseColor = convertToOklch(`oklch(${this.theme.bgLight} ${this.theme.bgChroma} ${this.theme.primary})`)!
-    const baseContentColor = this.generateForegroundColor(baseColor)
-    resultObj.set(`--base`, `${baseColor.l} ${baseColor.c} ${baseColor.h}`)
-    resultObj.set(`--base-content`, `${baseContentColor.l} ${baseContentColor.c} ${baseContentColor.h}`)
+    const layerColor = convertToOklch(`oklch(${this.theme.bgLight} ${this.theme.bgChroma} ${this.theme.primary})`)!
+    const layerContentColor = this.generateForegroundColor(layerColor)
+    resultObj.set(`--layer`, `${layerColor.l} ${layerColor.c} ${layerColor.h}`)
+    resultObj.set(`--layer-content`, `${layerContentColor.l} ${layerContentColor.c} ${layerContentColor.h}`)
     return resultObj
   }
 
   private generateDarkTheme() {
     let resultObj: Map<string, string> = new Map()
-    const baseColor = convertToOklch(`oklch(${this.theme.bgDark} ${this.theme.bgChroma} ${this.theme.primary})`)!
-    const baseContentColor = this.generateForegroundColor(baseColor)
-    resultObj.set(`--base`, `${baseColor.l} ${baseColor.c} ${baseColor.h}`)
-    resultObj.set(`--base-content`, `${baseContentColor.l} ${baseContentColor.c} ${baseContentColor.h}`)
+    const layerColor = convertToOklch(`oklch(${this.theme.bgDark} ${this.theme.bgChroma} ${this.theme.primary})`)!
+    const layerContentColor = this.generateForegroundColor(layerColor)
+    resultObj.set(`--layer`, `${layerColor.l} ${layerColor.c} ${layerColor.h}`)
+    resultObj.set(`--layer-content`, `${layerContentColor.l} ${layerContentColor.c} ${layerContentColor.h}`)
 
     const baseLight = convertToOklch(`oklch(${this.theme.bgDark} 0 0)`)!
 

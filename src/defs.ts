@@ -15,6 +15,6 @@ export const colorClasses = {
   'warning-content': 'oklch(var(--warning-content)/<alpha-value>)',
   'error': 'oklch(var(--error)/<alpha-value>)',
   'error-content': 'oklch(var(--error-content)/<alpha-value>)',
-  'base': 'oklch(var(--base)/<alpha-value>)',
-  'base-content': 'oklch(var(--base-content)/<alpha-value>)',
+  'layer': 'oklch(var(--layer)/<alpha-value>)',
+  'layer-content': 'oklch(var(--layer-content)/<alpha-value>)',
 };
